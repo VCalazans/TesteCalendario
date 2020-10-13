@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/calendar.js"></script>
+
+
+    <style>
+        td {
+            text-align: right;
+            list-style: none;
+            border: solid;
+            width: 150px;
+            height: 150px;
+            z-index: 0;
+            
+        }
+
+        ul {
+        }
+
+
+        #btLeft {
+            margin-left: 43%;
+        }
+
+        #btRight {
+            margin-left: 8px;
+        }
+
+        #divMesAno {
+            margin-left: 31%;
+            margin-top: 10%;
+        }
+
+        #dialog {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #idformEvento{
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <div id="dialog">
+        <script> 
+            document.write( calendario());
+            loadEvents();
+        </script>
+    </div>
+
+    
+
+
+</body>
+
+</html>
